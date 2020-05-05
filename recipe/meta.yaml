@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -22,7 +22,7 @@ build:
 
 requirements:
   build:
-    - {{posix}}zip               # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-corpcor >=1.6.9
@@ -37,7 +37,7 @@ test:
 
 about:
   home: http://strimmerlab.org/software/whitening/
-  license: GPL (>= 3)
+  license: GPL-3.0-or-later
   summary: Implements the whitening methods (ZCA, PCA, Cholesky, ZCA-cor, and PCA-cor) discussed
     in Kessy, Lewin, and Strimmer (2018) "Optimal whitening and decorrelation", <doi:10.1080/00031305.2016.1277159>,
     as well as the whitening approach to canonical correlation analysis allowing negative
