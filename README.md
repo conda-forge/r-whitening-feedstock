@@ -3,13 +3,11 @@ About r-whitening
 
 Home: http://strimmerlab.org/software/whitening/
 
-Package license: GPL (>= 3)
+Package license: GPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-whitening-feedstock/blob/master/LICENSE.txt)
 
 Summary: Implements the whitening methods (ZCA, PCA, Cholesky, ZCA-cor, and PCA-cor) discussed in Kessy, Lewin, and Strimmer (2018) "Optimal whitening and decorrelation", <doi:10.1080/00031305.2016.1277159>, as well as the whitening approach to canonical correlation analysis allowing negative canonical correlations described in Jendoubi and Strimmer (2019) "A whitening approach to probabilistic canonical correlation analysis for omics data integration", <doi:10.1186/s12859-018-2572-9>.
-
-
 
 Current build status
 ====================
