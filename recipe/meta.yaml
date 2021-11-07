@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/whitening_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/whitening/whitening_{{ version }}.tar.gz
-  sha256: 6bc3fc69054ab2bfa601d1676acaeaede3173bfe6bffc98a90882fbfee4c4422
+  sha256: 32c4d162b19f95e03fca38e5c85ae31a7a3883991b453cf50d02094ba636808d
 
 build:
   merge_build_host: true  # [win]
